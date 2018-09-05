@@ -11,7 +11,8 @@
           "InitialCore.Data": "1.0.0",
           "InitialCore.Infrastructure": "1.0.0",
           "InitialCore.Utilities": "1.0.0",
-          "Microsoft.AspNetCore.Identity": "2.0.0"
+          "Microsoft.AspNetCore.Identity": "2.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.0.0"
         },
         "runtime": {
           "InitialCore.Data.EF.dll": {}

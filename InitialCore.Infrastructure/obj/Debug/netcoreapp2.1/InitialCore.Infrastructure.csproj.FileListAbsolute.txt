@@ -1,7 +1,6 @@
 F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Infrastructure\bin\Debug\netcoreapp2.1\InitialCore.Infrastructure.deps.json
 F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Infrastructure\bin\Debug\netcoreapp2.1\InitialCore.Infrastructure.dll
 F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Infrastructure\bin\Debug\netcoreapp2.1\InitialCore.Infrastructure.pdb
-F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Infrastructure\obj\Debug\netcoreapp2.1\InitialCore.Infrastructure.csprojResolveAssemblyReference.cache
 F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Infrastructure\obj\Debug\netcoreapp2.1\InitialCore.Infrastructure.csproj.CoreCompileInputs.cache
 F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Infrastructure\obj\Debug\netcoreapp2.1\InitialCore.Infrastructure.AssemblyInfoInputs.cache
 F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Infrastructure\obj\Debug\netcoreapp2.1\InitialCore.Infrastructure.AssemblyInfo.cs
