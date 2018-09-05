@@ -4134,6 +4134,7 @@
       "InitialCore.Utilities >= 1.0.0",
       "Microsoft.AspNetCore.Identity >= 2.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 2.0.0",
+      "Microsoft.EntityFrameworkCore.Tools >= 2.0.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -4192,6 +4193,10 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
+          "Microsoft.EntityFrameworkCore.Tools": {
             "target": "Package",
             "version": "2.0.0"
           },

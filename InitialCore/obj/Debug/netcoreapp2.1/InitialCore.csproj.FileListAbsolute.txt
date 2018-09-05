@@ -6,3 +6,17 @@ F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore\obj\Debug\netco
 F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore\obj\Debug\netcoreapp2.1\InitialCore.csproj.CoreCompileInputs.cache
 F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore\obj\Debug\netcoreapp2.1\InitialCore.AssemblyInfoInputs.cache
 F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore\obj\Debug\netcoreapp2.1\InitialCore.AssemblyInfo.cs
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore\bin\Debug\netcoreapp2.1\InitialCore.Data.dll
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore\bin\Debug\netcoreapp2.1\InitialCore.Data.EF.dll
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore\bin\Debug\netcoreapp2.1\InitialCore.Infrastructure.dll
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore\bin\Debug\netcoreapp2.1\InitialCore.Service.dll
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore\bin\Debug\netcoreapp2.1\InitialCore.Utilities.dll
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore\bin\Debug\netcoreapp2.1\InitialCore.Data.EF.pdb
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore\bin\Debug\netcoreapp2.1\InitialCore.Service.pdb
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore\bin\Debug\netcoreapp2.1\InitialCore.Data.pdb
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore\bin\Debug\netcoreapp2.1\InitialCore.Infrastructure.pdb
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore\bin\Debug\netcoreapp2.1\InitialCore.Utilities.pdb
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore\bin\Debug\netcoreapp2.1\InitialCore.pdb
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore\obj\Debug\netcoreapp2.1\InitialCore.dll
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore\obj\Debug\netcoreapp2.1\InitialCore.pdb
