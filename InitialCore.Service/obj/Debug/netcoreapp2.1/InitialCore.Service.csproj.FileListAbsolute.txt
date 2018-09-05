@@ -1,0 +1,17 @@
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Service\bin\Debug\netcoreapp2.1\InitialCore.Service.deps.json
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Service\bin\Debug\netcoreapp2.1\InitialCore.Service.dll
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Service\bin\Debug\netcoreapp2.1\InitialCore.Service.pdb
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Service\bin\Debug\netcoreapp2.1\InitialCore.Data.dll
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Service\bin\Debug\netcoreapp2.1\InitialCore.Data.EF.dll
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Service\bin\Debug\netcoreapp2.1\InitialCore.Infrastructure.dll
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Service\bin\Debug\netcoreapp2.1\InitialCore.Utilities.dll
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Service\bin\Debug\netcoreapp2.1\InitialCore.Data.EF.pdb
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Service\bin\Debug\netcoreapp2.1\InitialCore.Data.pdb
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Service\bin\Debug\netcoreapp2.1\InitialCore.Utilities.pdb
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Service\bin\Debug\netcoreapp2.1\InitialCore.Infrastructure.pdb
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Service\obj\Debug\netcoreapp2.1\InitialCore.Service.csprojResolveAssemblyReference.cache
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Service\obj\Debug\netcoreapp2.1\InitialCore.Service.csproj.CoreCompileInputs.cache
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Service\obj\Debug\netcoreapp2.1\InitialCore.Service.AssemblyInfoInputs.cache
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Service\obj\Debug\netcoreapp2.1\InitialCore.Service.AssemblyInfo.cs
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Service\obj\Debug\netcoreapp2.1\InitialCore.Service.dll
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Service\obj\Debug\netcoreapp2.1\InitialCore.Service.pdb

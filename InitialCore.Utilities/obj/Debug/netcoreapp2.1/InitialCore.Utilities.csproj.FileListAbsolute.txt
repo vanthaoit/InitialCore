@@ -1,0 +1,8 @@
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Utilities\bin\Debug\netcoreapp2.1\InitialCore.Utilities.deps.json
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Utilities\bin\Debug\netcoreapp2.1\InitialCore.Utilities.dll
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Utilities\bin\Debug\netcoreapp2.1\InitialCore.Utilities.pdb
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Utilities\obj\Debug\netcoreapp2.1\InitialCore.Utilities.csproj.CoreCompileInputs.cache
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Utilities\obj\Debug\netcoreapp2.1\InitialCore.Utilities.AssemblyInfoInputs.cache
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Utilities\obj\Debug\netcoreapp2.1\InitialCore.Utilities.AssemblyInfo.cs
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Utilities\obj\Debug\netcoreapp2.1\InitialCore.Utilities.dll
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Utilities\obj\Debug\netcoreapp2.1\InitialCore.Utilities.pdb

@@ -1,0 +1,11 @@
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Data\bin\Debug\netcoreapp2.1\InitialCore.Data.deps.json
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Data\bin\Debug\netcoreapp2.1\InitialCore.Data.dll
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Data\bin\Debug\netcoreapp2.1\InitialCore.Data.pdb
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Data\bin\Debug\netcoreapp2.1\InitialCore.Infrastructure.dll
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Data\bin\Debug\netcoreapp2.1\InitialCore.Infrastructure.pdb
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Data\obj\Debug\netcoreapp2.1\InitialCore.Data.csprojResolveAssemblyReference.cache
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Data\obj\Debug\netcoreapp2.1\InitialCore.Data.csproj.CoreCompileInputs.cache
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Data\obj\Debug\netcoreapp2.1\InitialCore.Data.AssemblyInfoInputs.cache
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Data\obj\Debug\netcoreapp2.1\InitialCore.Data.AssemblyInfo.cs
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Data\obj\Debug\netcoreapp2.1\InitialCore.Data.dll
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Data\obj\Debug\netcoreapp2.1\InitialCore.Data.pdb

@@ -1,0 +1,15 @@
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Data.EF\bin\Debug\netcoreapp2.1\InitialCore.Data.EF.deps.json
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Data.EF\bin\Debug\netcoreapp2.1\InitialCore.Data.EF.dll
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Data.EF\bin\Debug\netcoreapp2.1\InitialCore.Data.EF.pdb
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Data.EF\bin\Debug\netcoreapp2.1\InitialCore.Data.dll
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Data.EF\bin\Debug\netcoreapp2.1\InitialCore.Infrastructure.dll
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Data.EF\bin\Debug\netcoreapp2.1\InitialCore.Utilities.dll
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Data.EF\bin\Debug\netcoreapp2.1\InitialCore.Data.pdb
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Data.EF\bin\Debug\netcoreapp2.1\InitialCore.Infrastructure.pdb
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Data.EF\bin\Debug\netcoreapp2.1\InitialCore.Utilities.pdb
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Data.EF\obj\Debug\netcoreapp2.1\InitialCore.Data.EF.csprojResolveAssemblyReference.cache
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Data.EF\obj\Debug\netcoreapp2.1\InitialCore.Data.EF.csproj.CoreCompileInputs.cache
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Data.EF\obj\Debug\netcoreapp2.1\InitialCore.Data.EF.AssemblyInfoInputs.cache
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Data.EF\obj\Debug\netcoreapp2.1\InitialCore.Data.EF.AssemblyInfo.cs
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Data.EF\obj\Debug\netcoreapp2.1\InitialCore.Data.EF.dll
+F:\MY PROGRAMMING\CODING\MYSELF\NET CORE\InitialCore\InitialCore.Data.EF\obj\Debug\netcoreapp2.1\InitialCore.Data.EF.pdb
