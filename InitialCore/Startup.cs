@@ -30,7 +30,7 @@ namespace InitialCore
 		{
 			services.AddDbContext<ApplicationDbContext>(options =>
 				options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
-				o => o.MigrationsAssembly("InitialApp.Data.EF")));
+				o => o.MigrationsAssembly("InitialCore.Data.EF")));
 
 			services.AddIdentity<ApplicationUser, ApplicationRole>()
 				.AddEntityFrameworkStores<ApplicationDbContext>()
@@ -41,14 +41,14 @@ namespace InitialCore
 			{
 				// Password settings
 				options.Password.RequireDigit = true;
-				options.Password.RequiredLength = 6;
+				options.Password.RequiredLength = 11;
 				options.Password.RequireNonAlphanumeric = false;
 				options.Password.RequireUppercase = false;
 				options.Password.RequireLowercase = false;
 
 				// Lockout settings
 				options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(30);
-				options.Lockout.MaxFailedAccessAttempts = 10;
+				options.Lockout.MaxFailedAccessAttempts = 15;
 
 				// User settings
 				options.User.RequireUniqueEmail = true;
@@ -63,6 +63,7 @@ namespace InitialCore
 			services.AddScoped<IMapper>(sp => new Mapper(sp.GetRequiredService<AutoMapper.IConfigurationProvider>(), sp.GetService));
 
 			services.AddTransient<IEmailSender, EmailSender>();
+
 			services.AddTransient<DbInitializer>();
 
 			services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();

@@ -4706,7 +4706,9 @@
           "InitialCore.Utilities": "1.0.0",
           "Microsoft.AspNetCore.Identity": "2.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.0.0",
-          "Microsoft.EntityFrameworkCore.Tools": "2.0.0"
+          "Microsoft.EntityFrameworkCore.Tools": "2.0.0",
+          "Microsoft.Extensions.Configuration.FileExtensions": "2.0.0",
+          "Microsoft.Extensions.Configuration.Json": "2.0.0"
         },
         "runtime": {
           "InitialCore.Data.EF.dll": {}

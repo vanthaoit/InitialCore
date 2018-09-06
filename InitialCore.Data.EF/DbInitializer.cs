@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using InitialCore.Data.Entities;
@@ -50,8 +51,11 @@ namespace InitialCore.Data.EF
 				{
 					UserName = "admin",
 					FullName = "Administrator",
-					Email = "vietnamthaotranvan@gmail.com",
+					Email = "admin@gmail.com",
 					Balance = 0,
+					DateCreated = DateTime.Now,
+					DateModified = DateTime.Now,
+					Status = Status.Active
 				}, "netcore@123");
 				var user = await _userManager.FindByNameAsync("admin");
 				await _userManager.AddToRoleAsync(user, "Admin");

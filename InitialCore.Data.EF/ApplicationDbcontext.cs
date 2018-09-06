@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Linq;
 using InitialCore.Data.EF.Configurations;
 using InitialCore.Data.EF.Extensions;
@@ -8,6 +9,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
+using Microsoft.EntityFrameworkCore.Design;
+using Microsoft.Extensions.Configuration;
 
 namespace InitialCore.Data.EF
 {
@@ -57,17 +60,17 @@ namespace InitialCore.Data.EF
 		{
 			#region Identity Config
 
-			builder.Entity<IdentityUserClaim<string>>().ToTable("ApplicationUserClaims").HasKey(x => x.Id);
+			builder.Entity<IdentityUserClaim<Guid>>().ToTable("ApplicationUserClaims").HasKey(x => x.Id);
 
-			builder.Entity<IdentityRoleClaim<string>>().ToTable("ApplicationRoleClaims")
+			builder.Entity<IdentityRoleClaim<Guid>>().ToTable("ApplicationRoleClaims")
 				.HasKey(x => x.Id);
 
-			builder.Entity<IdentityUserLogin<string>>().ToTable("ApplicationUserLogins").HasKey(x => x.UserId);
+			builder.Entity<IdentityUserLogin<Guid>>().ToTable("ApplicationUserLogins").HasKey(x => x.UserId);
 
-			builder.Entity<IdentityUserRole<string>>().ToTable("ApplicationUserRoles")
+			builder.Entity<IdentityUserRole<Guid>>().ToTable("ApplicationUserRoles")
 				.HasKey(x => new { x.RoleId, x.UserId });
 
-			builder.Entity<IdentityUserToken<string>>().ToTable("ApplicationUserTokens")
+			builder.Entity<IdentityUserToken<Guid>>().ToTable("ApplicationUserTokens")
 			   .HasKey(x => new { x.UserId });
 
 			#endregion Identity Config
@@ -82,7 +85,7 @@ namespace InitialCore.Data.EF
 			builder.AddConfiguration(new SystemConfigConfiguration());
 			builder.AddConfiguration(new AdvertistmentPositionConfiguration());
 
-			base.OnModelCreating(builder);
+			//base.OnModelCreating(builder);
 		}
 
 		public override int SaveChanges()
@@ -102,6 +105,20 @@ namespace InitialCore.Data.EF
 				}
 			}
 			return base.SaveChanges();
+		}
+	}
+
+	public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<ApplicationDbContext>
+	{
+		public ApplicationDbContext CreateDbContext(string[] args)
+		{
+			IConfiguration configuration = new ConfigurationBuilder()
+				.SetBasePath(Directory.GetCurrentDirectory())
+				.AddJsonFile("appsettings.json").Build();
+			var builder = new DbContextOptionsBuilder<ApplicationDbContext>();
+			var connectionString = configuration.GetConnectionString("DefaultConnection");
+			builder.UseSqlServer(connectionString);
+			return new ApplicationDbContext(builder.Options);
 		}
 	}
 }
