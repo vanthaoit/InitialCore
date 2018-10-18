@@ -1,0 +1,9 @@
+E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.Service.Dapper\bin\Debug\netcoreapp2.1\InitialCore.Service.Dapper.deps.json
+E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.Service.Dapper\bin\Debug\netcoreapp2.1\InitialCore.Service.Dapper.dll
+E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.Service.Dapper\bin\Debug\netcoreapp2.1\InitialCore.Service.Dapper.pdb
+E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.Service.Dapper\obj\Debug\netcoreapp2.1\InitialCore.Service.Dapper.csprojAssemblyReference.cache
+E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.Service.Dapper\obj\Debug\netcoreapp2.1\InitialCore.Service.Dapper.csproj.CoreCompileInputs.cache
+E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.Service.Dapper\obj\Debug\netcoreapp2.1\InitialCore.Service.Dapper.AssemblyInfoInputs.cache
+E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.Service.Dapper\obj\Debug\netcoreapp2.1\InitialCore.Service.Dapper.AssemblyInfo.cs
+E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.Service.Dapper\obj\Debug\netcoreapp2.1\InitialCore.Service.Dapper.dll
+E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.Service.Dapper\obj\Debug\netcoreapp2.1\InitialCore.Service.Dapper.pdb

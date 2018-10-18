@@ -12,65 +12,65 @@ namespace InitialCore.Data.Entities
     [Table("Bills")]
     public class Bill : DomainEntity<int>, ISwitchable, IDateTracking
     {
-		public Bill() { }
+        public Bill() { }
 
-		public Bill(string customerName, string customerAddress, string customerMobile, string customerMessage,
-			BillStatus billStatus, PaymentMethod paymentMethod, Status status, Guid customerId)
-		{
-			CustomerName = customerName;
-			CustomerAddress = customerAddress;
-			CustomerMobile = customerMobile;
-			CustomerMessage = customerMessage;
-			BillStatus = billStatus;
-			PaymentMethod = paymentMethod;
-			Status = status;
-			CustomerId = customerId;
-		}
+        public Bill(string customerName, string customerAddress, string customerMobile, string customerMessage,
+            BillStatus billStatus, PaymentMethod paymentMethod, Status status, Guid? customerId)
+        {
+            CustomerName = customerName;
+            CustomerAddress = customerAddress;
+            CustomerMobile = customerMobile;
+            CustomerMessage = customerMessage;
+            BillStatus = billStatus;
+            PaymentMethod = paymentMethod;
+            Status = status;
+            CustomerId = customerId;
+        }
 
-		public Bill(int id, string customerName, string customerAddress, string customerMobile, string customerMessage,
-		   BillStatus billStatus, PaymentMethod paymentMethod, Status status, Guid customerId)
-		{
-			Id = id;
-			CustomerName = customerName;
-			CustomerAddress = customerAddress;
-			CustomerMobile = customerMobile;
-			CustomerMessage = customerMessage;
-			BillStatus = billStatus;
-			PaymentMethod = paymentMethod;
-			Status = status;
-			CustomerId = customerId;
-		}
-		[Required]
-		[MaxLength(256)]
-		public string CustomerName { set; get; }
+        public Bill(int id, string customerName, string customerAddress, string customerMobile, string customerMessage,
+           BillStatus billStatus, PaymentMethod paymentMethod, Status status, Guid? customerId)
+        {
+            Id = id;
+            CustomerName = customerName;
+            CustomerAddress = customerAddress;
+            CustomerMobile = customerMobile;
+            CustomerMessage = customerMessage;
+            BillStatus = billStatus;
+            PaymentMethod = paymentMethod;
+            Status = status;
+            CustomerId = customerId;
+        }
+        [Required]
+        [MaxLength(256)]
+        public string CustomerName { set; get; }
 
-		[Required]
-		[MaxLength(256)]
-		public string CustomerAddress { set; get; }
+        [Required]
+        [MaxLength(256)]
+        public string CustomerAddress { set; get; }
 
-		[Required]
-		[MaxLength(50)]
-		public string CustomerMobile { set; get; }
+        [Required]
+        [MaxLength(50)]
+        public string CustomerMobile { set; get; }
 
-		[Required]
-		[MaxLength(256)]
-		public string CustomerMessage { set; get; }
+        [Required]
+        [MaxLength(256)]
+        public string CustomerMessage { set; get; }
 
-		public PaymentMethod PaymentMethod { set; get; }
+        public PaymentMethod PaymentMethod { set; get; }
 
-		public BillStatus BillStatus { set; get; }
+        public BillStatus BillStatus { set; get; }
 
-		public DateTime DateCreated { set; get; }
-		public DateTime DateModified { set; get; }
+        public DateTime DateCreated { set; get; }
+        public DateTime DateModified { set; get; }
 
-		[DefaultValue(Status.Active)]
-		public Status Status { set; get; } = Status.Active;
+        [DefaultValue(Status.Active)]
+        public Status Status { set; get; } = Status.Active;
 
-		public Guid CustomerId { set; get; }
+        public Guid? CustomerId { set; get; }
 
-		[ForeignKey("CustomerId")]
-		public virtual ApplicationUser User { set; get; }
+        [ForeignKey("CustomerId")]
+        public virtual ApplicationUser User { set; get; }
 
-		public virtual ICollection<BillDetail> BillDetails { set; get; }
-	}
+        public virtual ICollection<BillDetail> BillDetails { set; get; }
+    }
 }

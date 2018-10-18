@@ -681,26 +681,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\thaotranv\\.nuget\\packages\\": {},
+    "C:\\Users\\LENOVO\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "F:\\MY PROGRAMMING\\CODING\\MYSELF\\NET CORE\\InitialCore\\InitialCore.Infrastructure\\InitialCore.Infrastructure.csproj",
+      "projectUniqueName": "E:\\KAMIKAZE SOLUTIONS\\SOURCE CODE\\GIT\\InitialCore\\InitialCore\\InitialCore.Infrastructure\\InitialCore.Infrastructure.csproj",
       "projectName": "InitialCore.Infrastructure",
-      "projectPath": "F:\\MY PROGRAMMING\\CODING\\MYSELF\\NET CORE\\InitialCore\\InitialCore.Infrastructure\\InitialCore.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\thaotranv\\.nuget\\packages\\",
-      "outputPath": "F:\\MY PROGRAMMING\\CODING\\MYSELF\\NET CORE\\InitialCore\\InitialCore.Infrastructure\\obj\\",
+      "projectPath": "E:\\KAMIKAZE SOLUTIONS\\SOURCE CODE\\GIT\\InitialCore\\InitialCore\\InitialCore.Infrastructure\\InitialCore.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+      "outputPath": "E:\\KAMIKAZE SOLUTIONS\\SOURCE CODE\\GIT\\InitialCore\\InitialCore\\InitialCore.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\thaotranv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -727,7 +724,7 @@
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.1",
+            "version": "[2.1.0, )",
             "autoReferenced": true
           }
         },

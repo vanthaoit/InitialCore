@@ -13,6 +13,7 @@ using Microsoft.Extensions.Options;
 using InitialCore.Models;
 using InitialCore.Models.ManageViewModels;
 using InitialCore.Services;
+using InitialCore.Data.Entities;
 
 namespace InitialCore.Controllers
 {
@@ -266,7 +267,7 @@ namespace InitialCore.Controllers
                 throw new ApplicationException($"Unable to load user with ID '{_userManager.GetUserId(User)}'.");
             }
 
-            var info = await _signInManager.GetExternalLoginInfoAsync(user.Id);
+            var info = await _signInManager.GetExternalLoginInfoAsync(user.Id.ToString());
             if (info == null)
             {
                 throw new ApplicationException($"Unexpected error occurred loading external login info for user with ID '{user.Id}'.");

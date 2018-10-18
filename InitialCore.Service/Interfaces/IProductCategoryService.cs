@@ -1,30 +1,34 @@
-﻿using System.Collections.Generic;
-using InitialCore.Application.ViewModels.Product;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using InitialCore.Service.ViewModels.Product;
 
 namespace InitialCore.Service.Interfaces
 {
-	public interface IProductCategoryService
-	{
-		ProductCategoryViewModel Add(ProductCategoryViewModel productCategoryVm);
+    public interface IProductCategoryService
+    {
+        ProductCategoryViewModel Add(ProductCategoryViewModel productCategoryVm);
 
-		void Update(ProductCategoryViewModel productCategoryVm);
+        void Update(ProductCategoryViewModel productCategoryVm);
 
-		void Delete(int id);
+        void Delete(int id);
 
-		List<ProductCategoryViewModel> GetAll();
+        List<ProductCategoryViewModel> GetAll();
 
-		List<ProductCategoryViewModel> GetAll(string keyword);
+        List<ProductCategoryViewModel> GetAll(string keyword);
 
-		List<ProductCategoryViewModel> GetAllByParentId(int parentId);
+        List<ProductCategoryViewModel> GetAllByParentId(int parentId);
 
-		ProductCategoryViewModel GetById(int id);
+        ProductCategoryViewModel GetById(int id);
 
-		void UpdateParentId(int sourceId, int targetId, Dictionary<int, int> items);
+        void UpdateParentId(int sourceId, int targetId, Dictionary<int, int> items);
+        void ReOrder(int sourceId, int targetId);
 
-		void ReOrder(int sourceId, int targetId);
+        List<ProductCategoryViewModel> GetHomeCategories(int top);
 
-		List<ProductCategoryViewModel> GetHomeCategories(int top);
+       
 
-		void Save();
-	}
+
+        void Save();
+    }
 }

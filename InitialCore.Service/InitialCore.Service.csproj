@@ -5,11 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ViewModels\Product\" />
+    <Folder Include="ViewModels\Blog\" />
+    <Folder Include="ViewModels\Common\" />
+    <Folder Include="ViewModels\System\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="6.1.1" />
+    <PackageReference Include="EPPlus.Core" Version="1.5.4" />
   </ItemGroup>
 
   <ItemGroup>

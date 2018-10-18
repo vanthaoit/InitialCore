@@ -6,16 +6,16 @@ namespace InitialCore.Data.Entities
 {
 	public class ApplicationRole : IdentityRole<Guid>
 	{
-		public ApplicationRole() : base()
-		{
-		}
+        public ApplicationRole() : base()
+        {
 
-		public ApplicationRole(string name, string description) : base(name)
-		{
-			this.Description = description;
-		}
+        }
+        public ApplicationRole(string name, string description) : base(name)
+        {
+            this.Description = description;
+        }
 
-		[StringLength(250)]
-		public string Description { get; set; }
-	}
+        [StringLength(250)]
+        public string Description { get; set; }
+    }
 }

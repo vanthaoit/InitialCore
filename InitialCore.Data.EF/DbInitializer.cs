@@ -24,6 +24,7 @@ namespace InitialCore.Data.EF
 
 		public async Task Seed()
 		{
+            
 			if (!_roleManager.Roles.Any())
 			{
 				await _roleManager.CreateAsync(new ApplicationRole()
@@ -60,6 +61,7 @@ namespace InitialCore.Data.EF
 				var user = await _userManager.FindByNameAsync("admin");
 				await _userManager.AddToRoleAsync(user, "Admin");
 			}
+            
 			if (_context.Functions.Count() == 0)
 			{
 				_context.Functions.AddRange(new List<Function>()

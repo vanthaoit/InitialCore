@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="3.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InitialCore.Data.EF\InitialCore.Data.EF.csproj" />
+    <ProjectReference Include="..\InitialCore.Data\InitialCore.Data.csproj" />
+    <ProjectReference Include="..\InitialCore.Infrastructure\InitialCore.Infrastructure.csproj" />
+    <ProjectReference Include="..\InitialCore.Service.Dapper\InitialCore.Service.Dapper.csproj" />
+    <ProjectReference Include="..\InitialCore.Service\InitialCore.Service.csproj" />
+    <ProjectReference Include="..\InitialCore.Utilities\InitialCore.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

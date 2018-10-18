@@ -3,15 +3,24 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <UserSecretsId>aspnet-InitialCore-1AF1D200-9574-4C42-95B3-5F7351A4389A</UserSecretsId>
+    <TypeScriptToolsVersion>3.0</TypeScriptToolsVersion>
   </PropertyGroup>
 
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="6.1.1" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="3.1.0" />
+    <PackageReference Include="EPPlus.Core" Version="1.5.4" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="2.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.1.1" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.0" PrivateAssets="All" />
+    <PackageReference Include="PaulMiami.AspNetCore.Mvc.Recaptcha" Version="1.2.1" />
+    <PackageReference Include="SkiaSharp" Version="1.60.3" />
+    <PackageReference Include="WebMarkupMin.AspNetCore2" Version="2.5.0" />
+    <PackageReference Include="WebMarkupMin.NUglify" Version="2.5.2" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,7 +31,17 @@
 
   <ItemGroup>
     <ProjectReference Include="..\InitialCore.Data.EF\InitialCore.Data.EF.csproj" />
+    <ProjectReference Include="..\InitialCore.Service.Dapper\InitialCore.Service.Dapper.csproj" />
     <ProjectReference Include="..\InitialCore.Service\InitialCore.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\" />
+    <Folder Include="Authorization\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Logs\" />
+    <Folder Include="Middleware\" />
+    <Folder Include="Resources\" />
   </ItemGroup>
 
 </Project>
