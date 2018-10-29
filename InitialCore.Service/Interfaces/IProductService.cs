@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using InitialCore.Service.ViewModels.Common;
-using InitialCore.Service.ViewModels.Product;
+using InitialCore.Data.ViewModels.Product;
 using InitialCore.Utilities.Dtos;
 
 namespace InitialCore.Service.Interfaces
@@ -11,7 +11,7 @@ namespace InitialCore.Service.Interfaces
     {
         List<ProductViewModel> GetAll();
 
-        PagedResult<ProductViewModel> GetAllPaging(int? categoryId, string keyword, int page, int pageSize);
+        //PagedResult<ProductViewModel> GetAllPaging(int? categoryId, string keyword, int page, int pageSize);
 
         ProductViewModel Add(ProductViewModel product);
 
@@ -19,35 +19,35 @@ namespace InitialCore.Service.Interfaces
 
         void Delete(int id);
 
-        ProductViewModel GetById(int id);
+        //ProductViewModel GetById(int id);
 
-        void ImportExcel(string filePath, int categoryId);
+        //void ImportExcel(string filePath, int categoryId);
 
 
-        void Save();
+        //void Save();
 
-        void AddQuantity(int productId, List<ProductQuantityViewModel> quantities);
+        //void AddQuantity(int productId, List<ProductQuantityViewModel> quantities);
 
-        List<ProductQuantityViewModel> GetQuantities(int productId);
+        //List<ProductQuantityViewModel> GetQuantities(int productId);
 
-        void AddImages(int productId, string[] images);
+        //void AddImages(int productId, string[] images);
 
-        List<ProductImageViewModel> GetImages(int productId);
+        //List<ProductImageViewModel> GetImages(int productId);
 
-        void AddWholePrice(int productId, List<WholePriceViewModel> wholePrices);
+        //void AddWholePrice(int productId, List<WholePriceViewModel> wholePrices);
 
-        List<WholePriceViewModel> GetWholePrices(int productId);
+        //List<WholePriceViewModel> GetWholePrices(int productId);
 
-        List<ProductViewModel> GetLastest(int top);
+        //List<ProductViewModel> GetLastest(int top);
 
-        List<ProductViewModel> GetHotProduct(int top);
-        List<ProductViewModel> GetRelatedProducts(int id, int top);
+        //List<ProductViewModel> GetHotProduct(int top);
+        //List<ProductViewModel> GetRelatedProducts(int id, int top);
 
-        List<ProductViewModel> GetUpsellProducts(int top);
+        //List<ProductViewModel> GetUpsellProducts(int top);
 
-        List<TagViewModel> GetProductTags(int productId);
+        ////List<TagViewModel> GetProductTags(int productId);
 
-        bool CheckAvailability(int productId, int size, int color);
+        //bool CheckAvailability(int productId, int size, int color);
 
         
 

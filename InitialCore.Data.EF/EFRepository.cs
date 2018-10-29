@@ -18,7 +18,7 @@ namespace InitialCore.Data.EF
         private readonly ApplicationDbContext _context;
 
         //private INeo4JDbInitializer _neo4jContext;
-        private GraphClient client;
+        private GraphClient _client;
 
         private ISession _globalSession;
 
@@ -31,7 +31,6 @@ namespace InitialCore.Data.EF
         public EFRepository(ApplicationDbContext context)
         {
             _context = context;
-
             Initial();
         }
 
@@ -60,8 +59,9 @@ namespace InitialCore.Data.EF
             //                                        ProductCategory = pc.As<ProductCategoryViewModel>()
             //                                    }).Results.ToList();
 
-            var client = new GraphClient(new Uri("http://localhost:7474/db/data"), SystemConstants.USER_NAME, SystemConstants.PASSWORD);
-            client.Connect();
+            _client = new GraphClient(new Uri("http://localhost:7474/db/data"), SystemConstants.USER_NAME, SystemConstants.PASSWORD);
+
+            _client.Connect();
 
             _globalSession = driver.CreateBasicAuth().Session();
         }
@@ -91,14 +91,14 @@ namespace InitialCore.Data.EF
                 DateModified = new DateTime(),
                 Status = 0
             };
-            client.Cypher
+            _client.Cypher
                 .Create("(product:Product {inputProduct})")
                 .WithParam("inputProduct", newProduct)
                 .ExecuteWithoutResults();
 
-            _context.Add(entity);
+            //_context.Add(entity);
 
-            return entity;
+            return newProduct.As<T>();
         }
 
         public void Dispose()
@@ -113,6 +113,8 @@ namespace InitialCore.Data.EF
         {
             IQueryable<T> items = _context.Set<T>();
 
+            
+
             //var obj = new Dictionary<string, object> { { "Name", "Chris" }, { "Email", "a@a.com" } };
 
             //var paramsObj = new Dictionary<string, object> { { "userParam", obj } };
@@ -123,7 +125,7 @@ namespace InitialCore.Data.EF
 
             //var convert = responseResult.ToList();
 
-            var productCategoryResponse = client.Cypher
+            var itemResponse = _client.Cypher
                                                 .Match("(pc:" + typeof(T).Name + ")")
                                                 //.Where((T pc) => pc.As<T>)
                                                 //.Return(pc => new { ProductCategory = pc.As<T>()}).Results.ToList();
@@ -132,7 +134,7 @@ namespace InitialCore.Data.EF
 
             //var itemResponse = productCategoryResponse.AsQueryable();
 
-            return productCategoryResponse;
+            return itemResponse;
         }
 
         public IQueryable<T> FindAll(Expression<Func<T, bool>> predicate, params Expression<Func<T, object>>[] includeProperties)

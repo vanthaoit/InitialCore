@@ -2,6 +2,7 @@
 using InitialCore.Data.EF;
 using InitialCore.Data.Entities;
 using InitialCore.Data.Settings.Settings;
+using InitialCore.Data.ViewModels.Product;
 using InitialCore.Infrastructure.Interfaces;
 using InitialCore.Service.Implementation;
 using InitialCore.Service.Interfaces;
@@ -48,6 +49,7 @@ namespace InitialCore.WebRESTfulApi
             services.AddTransient<IKASService, KASService>();
             services.AddTransient<IRepository<ProductCategory, int>, EFRepository<ProductCategory, int>>();
             services.AddTransient<IRepository<Product, int>, EFRepository<Product, int>>();
+            services.AddTransient<IRepository<ProductViewModel, int>, EFRepository<ProductViewModel, int>>();
             services.AddTransient<IRepository<Data.Entities.Tag, string>, EFRepository<Data.Entities.Tag, string>>();
             services.AddTransient<IRepository<ProductTag, int>, EFRepository<ProductTag, int>>();
             services.AddTransient<IRepository<ProductQuantity, int>, EFRepository<ProductQuantity, int>>();
@@ -55,6 +57,7 @@ namespace InitialCore.WebRESTfulApi
             services.AddTransient<IRepository<WholePrice, int>, EFRepository<WholePrice, int>>();
             services.AddTransient<INeo4JDbInitializer, Neo4JDbInitializer>();
             services.AddTransient<IConnectionSettings, ConnectionSettings>();
+            
 
             services.AddMvc().
                 AddJsonOptions(options =>

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using InitialCore.Data.Entities;
 using InitialCore.Infrastructure.Interfaces;
 using InitialCore.Service.Interfaces;
-using InitialCore.Service.ViewModels.Product;
+using InitialCore.Data.ViewModels.Product;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -37,24 +37,26 @@ namespace InitialCore.WebRESTfulApi.Controllers
         [HttpGet("{id}", Name = "Get")]
         public IActionResult Get(int id)
         {
-            var allProductsById = _productService.GetById(id);
-            return new OkObjectResult(allProductsById);
+            //var allProductsById = _productService.GetById(id);
+            var all = "";
+            return new OkObjectResult(all);
         }
 
-        // POST: api/Product
-        [HttpPost]
+        // POST: api/Product/post
+        [HttpPost("post")]
         public IActionResult Post(ProductViewModel product)
         {
             var result = _productService.Add(product);
-            try
-            {
-                _productService.Save();
-                return new OkObjectResult(result);
-            }
-            catch (Exception e)
-            {
-                return new OkObjectResult(e.StackTrace);
-            }
+            //try
+            //{
+            //    _productService.Save();
+            //    return new OkObjectResult(result);
+            //}
+            //catch (Exception e)
+            //{
+            //    return new OkObjectResult(e.StackTrace);
+            //}
+            return new OkObjectResult(result);
           
         }
 
