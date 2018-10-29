@@ -2,6 +2,7 @@
 using System.Linq;
 using InitialCore.Data.Entities;
 using InitialCore.Data.IRepositories;
+using InitialCore.Data.Settings;
 
 namespace InitialCore.Data.EF.Repositories
 {
@@ -9,9 +10,13 @@ namespace InitialCore.Data.EF.Repositories
 	{
 		private ApplicationDbContext _context;
 
-		public ProductCategoryRepository(ApplicationDbContext context) : base(context)
+        private Neo4JDbContext _neo4jDbContext;
+
+
+        public ProductCategoryRepository(ApplicationDbContext context) :base(context)
 		{
 			_context = context;
+            //_neo4jDbContext = neo4jDbContext;
 		}
 
 		public List<ProductCategory> GetByAlias(string alias)

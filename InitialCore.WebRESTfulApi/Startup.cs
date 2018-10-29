@@ -1,4 +1,10 @@
 ﻿using AutoMapper;
+using InitialCore.Data.EF;
+using InitialCore.Data.Entities;
+using InitialCore.Data.Settings.Settings;
+using InitialCore.Infrastructure.Interfaces;
+using InitialCore.Service.Implementation;
+using InitialCore.Service.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -6,12 +12,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json.Serialization;
 using Swashbuckle.AspNetCore.Swagger;
-using InitialCore.Service.Implementation;
-using InitialCore.Service.Interfaces;
-using InitialCore.Data.EF;
-using InitialCore.Infrastructure.Interfaces;
-using Microsoft.Extensions.DependencyInjection.Extensions;
-using InitialCore.Data.Entities;
 
 namespace InitialCore.WebRESTfulApi
 {
@@ -30,7 +30,7 @@ namespace InitialCore.WebRESTfulApi
             services.AddDbContext<ApplicationDbContext>(options =>
                    options.UseSqlServer(Configuration.GetConnectionString("AppDbConnection"),
                        b => b.MigrationsAssembly("InitialCore.Data.EF")));
-
+            //services.AddDbContext<Neo4JDriverDbContext>();
             services.AddCors(o => o.AddPolicy("KASCorsPolicy", builder =>
             {
                 builder.AllowAnyOrigin()
@@ -46,8 +46,15 @@ namespace InitialCore.WebRESTfulApi
             services.AddTransient<IProductService, ProductService>();
             services.AddTransient<IProductCategoryService, ProductCategoryService>();
             services.AddTransient<IKASService, KASService>();
-            services.AddTransient<IRepository<ProductCategory,int>,EFRepository<ProductCategory,int>>();
-            
+            services.AddTransient<IRepository<ProductCategory, int>, EFRepository<ProductCategory, int>>();
+            services.AddTransient<IRepository<Product, int>, EFRepository<Product, int>>();
+            services.AddTransient<IRepository<Data.Entities.Tag, string>, EFRepository<Data.Entities.Tag, string>>();
+            services.AddTransient<IRepository<ProductTag, int>, EFRepository<ProductTag, int>>();
+            services.AddTransient<IRepository<ProductQuantity, int>, EFRepository<ProductQuantity, int>>();
+            services.AddTransient<IRepository<ProductImage, int>, EFRepository<ProductImage, int>>();
+            services.AddTransient<IRepository<WholePrice, int>, EFRepository<WholePrice, int>>();
+            services.AddTransient<INeo4JDbInitializer, Neo4JDbInitializer>();
+            services.AddTransient<IConnectionSettings, ConnectionSettings>();
 
             services.AddMvc().
                 AddJsonOptions(options =>
@@ -60,7 +67,7 @@ namespace InitialCore.WebRESTfulApi
                     Version = "v1",
                     Title = "InitialCore Project",
                     Description = "KAS API Swagger surface",
-                    Contact = new Swashbuckle.AspNetCore.Swagger.Contact { Name = "ThaoJohan", Email = "vietnamthaotranvan@gmail.com"},
+                    Contact = new Swashbuckle.AspNetCore.Swagger.Contact { Name = "ThaoJohan", Email = "vietnamthaotranvan@gmail.com" },
                     License = new License { Name = "MIT", Url = "https://github.com/vanthaoit/InitialCore" }
                 });
             });

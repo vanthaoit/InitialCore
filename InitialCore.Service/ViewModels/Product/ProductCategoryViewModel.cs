@@ -29,6 +29,6 @@ namespace InitialCore.Service.ViewModels.Product
         public string SeoKeywords { set; get; }
         public string SeoDescription { set; get; }
 
-        public ICollection<ProductViewModel> Products { set; get; }
+        //public ICollection<ProductViewModel> Products { set; get; }
     }
 }

@@ -1,24 +1,22 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <FileUpgradeFlags>40</FileUpgradeFlags>
+    <UpgradeBackupLocation>G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\Backup\InitialCore.Service\</UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
   </PropertyGroup>
-
   <ItemGroup>
     <Folder Include="ViewModels\Blog\" />
     <Folder Include="ViewModels\Common\" />
     <Folder Include="ViewModels\System\" />
   </ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="6.1.1" />
     <PackageReference Include="EPPlus.Core" Version="1.5.4" />
   </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\InitialCore.Data.EF\InitialCore.Data.EF.csproj" />
     <ProjectReference Include="..\InitialCore.Data\InitialCore.Data.csproj" />
     <ProjectReference Include="..\InitialCore.Utilities\InitialCore.Utilities.csproj" />
   </ItemGroup>
-
 </Project>

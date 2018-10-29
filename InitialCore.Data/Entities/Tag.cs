@@ -5,7 +5,16 @@ namespace InitialCore.Data.Entities
 {
 	public class Tag : DomainEntity<string>
 	{
-		[MaxLength(50)]
+        public Tag() { }
+
+        public Tag(string id, string name, string type)
+        {
+            Id = id;
+            Name = name;
+            Type = type;
+        }
+
+        [MaxLength(50)]
 		[Required]
 		public string Name { get; set; }
 

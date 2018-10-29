@@ -681,23 +681,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LENOVO\\.nuget\\packages\\": {},
+    "C:\\Users\\ThaoJohan\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\KAMIKAZE SOLUTIONS\\SOURCE CODE\\GIT\\InitialCore\\InitialCore\\InitialCore.Infrastructure\\InitialCore.Infrastructure.csproj",
+      "projectUniqueName": "G:\\KAMIKAZE SOLUTIONS\\SOURCE CODE\\GIT\\InitialCore\\InitialCore\\InitialCore.Infrastructure\\InitialCore.Infrastructure.csproj",
       "projectName": "InitialCore.Infrastructure",
-      "projectPath": "E:\\KAMIKAZE SOLUTIONS\\SOURCE CODE\\GIT\\InitialCore\\InitialCore\\InitialCore.Infrastructure\\InitialCore.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "E:\\KAMIKAZE SOLUTIONS\\SOURCE CODE\\GIT\\InitialCore\\InitialCore\\InitialCore.Infrastructure\\obj\\",
+      "projectPath": "G:\\KAMIKAZE SOLUTIONS\\SOURCE CODE\\GIT\\InitialCore\\InitialCore\\InitialCore.Infrastructure\\InitialCore.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\ThaoJohan\\.nuget\\packages\\",
+      "outputPath": "G:\\KAMIKAZE SOLUTIONS\\SOURCE CODE\\GIT\\InitialCore\\InitialCore\\InitialCore.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ThaoJohan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

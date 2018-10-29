@@ -24,6 +24,7 @@ namespace InitialCore.Service.Implementation
 
         public ProductCategoryViewModel Add(ProductCategoryViewModel productCategoryVm)
         {
+
             var productCategory = Mapper.Map<ProductCategoryViewModel, ProductCategory>(productCategoryVm);
             _productCategoryRepository.Add(productCategory);
             return productCategoryVm;

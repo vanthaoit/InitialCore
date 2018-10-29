@@ -26,6 +26,7 @@ namespace InitialCore.Service.AutoMapper
             CreateMap<Size, SizeViewModel>();
             CreateMap<ProductQuantity, ProductQuantityViewModel>().MaxDepth(2);
             CreateMap<ProductImage, ProductImageViewModel>().MaxDepth(2);
+            CreateMap<Tag, TagViewModel>().MaxDepth(2);
             CreateMap<WholePrice, WholePriceViewModel>().MaxDepth(2);
 
             CreateMap<Blog, BlogViewModel>().MaxDepth(2);

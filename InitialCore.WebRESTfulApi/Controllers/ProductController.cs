@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using InitialCore.Data.Entities;
 using InitialCore.Infrastructure.Interfaces;
 using InitialCore.Service.Interfaces;
+using InitialCore.Service.ViewModels.Product;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,36 +14,48 @@ namespace InitialCore.WebRESTfulApi.Controllers
     public class ProductController : ApiController
     {
         IProductService _productService;
-        IKASService _kasService;
+     
         IProductCategoryService _productCategoryService;
 
-        public ProductController(IKASService kasService,IProductCategoryService productCategoryService)
+        public ProductController(IProductService productService, IProductCategoryService productCategoryService)
         {
-            // _productService = productService;
             _productCategoryService = productCategoryService;
-            _kasService = kasService;
+            _productService = productService;
+         
         }
-        // GET: api/Product
-        [HttpGet]
+        // GET: api/Product/getall
+        [HttpGet("getAll")]
         public IActionResult Get()
         {
-            var abc = _productCategoryService.GetAll();
-            //var kas = _kasService.GetKAS();
-            return new OkObjectResult(abc);
+            var allProducts = _productService.GetAll();
+                        
+            return new OkObjectResult(allProducts);
             
         }
 
         // GET: api/Product/5
         [HttpGet("{id}", Name = "Get")]
-        public string Get(int id)
+        public IActionResult Get(int id)
         {
-            return "value";
+            var allProductsById = _productService.GetById(id);
+            return new OkObjectResult(allProductsById);
         }
 
         // POST: api/Product
         [HttpPost]
-        public void Post([FromBody] string value)
+        public IActionResult Post(ProductViewModel product)
         {
+            var result = _productService.Add(product);
+            try
+            {
+                _productService.Save();
+                return new OkObjectResult(result);
+            }
+            catch (Exception e)
+            {
+                return new OkObjectResult(e.StackTrace);
+            }
+          
         }
 
         // PUT: api/Product/5

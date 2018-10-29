@@ -14,3 +14,12 @@ E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.Infras
 E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.Infrastructure\obj\Debug\netcoreapp2.1\InitialCore.Infrastructure.AssemblyInfo.cs
 E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.Infrastructure\obj\Debug\netcoreapp2.1\InitialCore.Infrastructure.dll
 E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.Infrastructure\obj\Debug\netcoreapp2.1\InitialCore.Infrastructure.pdb
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.Infrastructure\bin\Debug\netcoreapp2.1\InitialCore.Infrastructure.deps.json
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.Infrastructure\bin\Debug\netcoreapp2.1\InitialCore.Infrastructure.dll
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.Infrastructure\bin\Debug\netcoreapp2.1\InitialCore.Infrastructure.pdb
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.Infrastructure\obj\Debug\netcoreapp2.1\InitialCore.Infrastructure.csprojAssemblyReference.cache
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.Infrastructure\obj\Debug\netcoreapp2.1\InitialCore.Infrastructure.csproj.CoreCompileInputs.cache
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.Infrastructure\obj\Debug\netcoreapp2.1\InitialCore.Infrastructure.AssemblyInfoInputs.cache
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.Infrastructure\obj\Debug\netcoreapp2.1\InitialCore.Infrastructure.AssemblyInfo.cs
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.Infrastructure\obj\Debug\netcoreapp2.1\InitialCore.Infrastructure.dll
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.Infrastructure\obj\Debug\netcoreapp2.1\InitialCore.Infrastructure.pdb

@@ -50,6 +50,9 @@ namespace InitialCore.Service.AutoMapper
 
             CreateMap<PageViewModel, Page>()
              .ConstructUsing(c => new Page(c.Id, c.Name, c.Alias, c.Content, c.Status));
+
+            CreateMap<TagViewModel, Tag>()
+             .ConstructUsing(c => new Tag(c.Id, c.Name, c.Type));
         }
     }
 }

@@ -14,9 +14,12 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="2.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.0.0" />
+    <PackageReference Include="Neo4j.Driver" Version="1.7.0" />
+    <PackageReference Include="Neo4JClient" Version="3.0.1.21" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\InitialCore.Data.Settings\InitialCore.Data.Settings.csproj" />
     <ProjectReference Include="..\InitialCore.Data\InitialCore.Data.csproj" />
     <ProjectReference Include="..\InitialCore.Infrastructure\InitialCore.Infrastructure.csproj" />
     <ProjectReference Include="..\InitialCore.Utilities\InitialCore.Utilities.csproj" />
