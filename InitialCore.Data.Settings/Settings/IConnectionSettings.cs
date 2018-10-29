@@ -8,7 +8,11 @@ namespace InitialCore.Data.Settings.Settings
     public interface IConnectionSettings
     {
 
-        string Uri { get; }
+        Uri Uri { get; }
+
+        string UserName { get; }
+
+        string Password { get; }
 
         IAuthToken AuthToken { get; }
 

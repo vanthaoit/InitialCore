@@ -45,7 +45,6 @@ namespace InitialCore.Service.ViewModels.Product
         [StringLength(255)]
         public string Unit { get; set; }
 
-        public ProductCategoryViewModel ProductCategory { set; get; }
 
         public string SeoPageTitle { set; get; }
 

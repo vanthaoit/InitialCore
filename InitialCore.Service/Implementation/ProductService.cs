@@ -52,7 +52,9 @@ namespace InitialCore.Service.Implementation
 
         public List<ProductViewModel> GetAll()
         {
-            return _productRepository.FindAll(x => x.ProductCategoryViewModel).ProjectTo<ProductViewModel>().ToList();
+            //return _productRepository.FindAll(x => x.ProductCategoryViewModel).ProjectTo<ProductViewModel>().ToList();
+            var response =  _productRepository.FindAll().ToList();
+            return response;
         }
 
         public void Update(ProductViewModel product)

@@ -6,9 +6,9 @@ using InitialCore.Infrastructure.SharedKernel;
 
 namespace InitialCore.Data.ViewModels.Product
 {
-	public class ProductViewModel: DomainEntity<int>
+	public class ProductViewModel:DomainEntity<int>
     {
-        public int Id { get; set; }
+        //public int Id { get; set; }
 
         [StringLength(255)]
         [Required]
@@ -46,7 +46,7 @@ namespace InitialCore.Data.ViewModels.Product
         [StringLength(255)]
         public string Unit { get; set; }
 
-        public ProductCategoryViewModel ProductCategoryViewModel { set; get; }
+        //public ProductCategoryViewModel ProductCategoryViewModel { set; get; }
 
         public string SeoPageTitle { set; get; }
 

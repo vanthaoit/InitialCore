@@ -1,28 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using InitialCore.Utilities.Constants;
+﻿using InitialCore.Utilities.Constants;
 using Neo4j.Driver.V1;
+using System;
 
 namespace InitialCore.Data.Settings.Settings
 {
-    public class ConnectionSettings:IConnectionSettings
+    public class ConnectionSettings : IConnectionSettings
     {
-
-        public string Uri { get; private set; }
+        public Uri Uri { get; private set; }
 
         public IAuthToken AuthToken { get; private set; }
 
-        public ConnectionSettings(string uri, IAuthToken authToken)
+        public string UserName { get; private set; }
+
+        public string Password { get; private set; }
+
+        public ConnectionSettings(Uri uri, string userName, string password)
         {
             Uri = uri;
-            AuthToken = authToken;
+            UserName = userName;
+            Password = password;
         }
 
         public static ConnectionSettings CreateBasicAuth()
         {
-            return new ConnectionSettings(SystemConstants.URI, AuthTokens.Basic(SystemConstants.USER_NAME, SystemConstants.PASSWORD));
+            return new ConnectionSettings(new Uri(SystemConstants.URI), SystemConstants.USER_NAME, SystemConstants.PASSWORD);
         }
-
     }
 }

@@ -1,5 +1,4 @@
 ﻿using InitialCore.Data.Settings.Settings;
-using InitialCore.Data.ViewModels.Product;
 using InitialCore.Infrastructure.Interfaces;
 using InitialCore.Infrastructure.SharedKernel;
 using InitialCore.Utilities.Constants;
@@ -18,7 +17,7 @@ namespace InitialCore.Data.EF
         private readonly ApplicationDbContext _context;
 
         //private INeo4JDbInitializer _neo4jContext;
-        private GraphClient _client;
+        private IGraphClient _client;
 
         private ISession _globalSession;
 
@@ -36,9 +35,11 @@ namespace InitialCore.Data.EF
 
         public void Initial()
         {
-            var settings = ConnectionSettings.CreateBasicAuth();
+      
+            var initialConnection = new Neo4JDbInitializer(ConnectionSettings.CreateBasicAuth());
 
-            var driver = new Neo4JDbInitializer(settings);
+            _client = initialConnection.CreateBasicAuth();
+            _client.Connect();
 
             //var client = new GraphClient(new Uri("http://localhost:7474/db/data"), SystemConstants.USER_NAME, SystemConstants.PASSWORD);
             //client.Connect();
@@ -59,46 +60,45 @@ namespace InitialCore.Data.EF
             //                                        ProductCategory = pc.As<ProductCategoryViewModel>()
             //                                    }).Results.ToList();
 
-            _client = new GraphClient(new Uri("http://localhost:7474/db/data"), SystemConstants.USER_NAME, SystemConstants.PASSWORD);
+            // _client = new GraphClient(new Uri("http://localhost:7474/db/data"), SystemConstants.USER_NAME, SystemConstants.PASSWORD);
 
-            _client.Connect();
 
-            _globalSession = driver.CreateBasicAuth().Session();
+
         }
 
         public virtual T Add(T entity)
         {
-            var newProduct = new ProductViewModel
-            {
-                Name = "Iphone 9",
-                CategoryId = 1,
-                Image = "",
-                Price = 1000,
-                PromotionPrice = 1000,
-                OriginalPrice = 1000,
-                Description = "be introduced in 1999",
-                Content = "Iphone 9",
-                HomeFlag = false,
-                HotFlag = false,
-                ViewCount = 0,
-                Tags = "Iphone",
-                Unit = "",
-                SeoPageTitle = "",
-                SeoAlias = "",
-                SeoKeywords = "",
-                SeoDescription = "",
-                DateCreated = new DateTime(),
-                DateModified = new DateTime(),
-                Status = 0
-            };
+            //var newProduct = new ProductViewModel
+            //{
+            //    Name = "Iphone 9",
+            //    CategoryId = 1,
+            //    Image = "",
+            //    Price = 1000,
+            //    PromotionPrice = 1000,
+            //    OriginalPrice = 1000,
+            //    Description = "be introduced in 1999",
+            //    Content = "Iphone 9",
+            //    HomeFlag = false,
+            //    HotFlag = false,
+            //    ViewCount = 0,
+            //    Tags = "Iphone",
+            //    Unit = "",
+            //    SeoPageTitle = "",
+            //    SeoAlias = "",
+            //    SeoKeywords = "",
+            //    SeoDescription = "",
+            //    DateCreated = new DateTime(),
+            //    DateModified = new DateTime(),
+            //    Status = 0
+            //};
             _client.Cypher
                 .Create("(product:Product {inputProduct})")
-                .WithParam("inputProduct", newProduct)
+                .WithParam("inputProduct", entity)
                 .ExecuteWithoutResults();
 
             //_context.Add(entity);
 
-            return newProduct.As<T>();
+            return entity.As<T>();
         }
 
         public void Dispose()
@@ -113,20 +113,12 @@ namespace InitialCore.Data.EF
         {
             IQueryable<T> items = _context.Set<T>();
 
-            
+            string[] entitySplit = typeof(T).Name.Split("ViewModel");
 
-            //var obj = new Dictionary<string, object> { { "Name", "Chris" }, { "Email", "a@a.com" } };
-
-            //var paramsObj = new Dictionary<string, object> { { "userParam", obj } };
-
-            //_globalSession.Run("CREATE (n:User {userParam})", paramsObj);
-
-            //var responseResult = _globalSession.Run("MATCH (p:ProductCategories) return p");
-
-            //var convert = responseResult.ToList();
+            var entityName = entitySplit[0];
 
             var itemResponse = _client.Cypher
-                                                .Match("(pc:" + typeof(T).Name + ")")
+                                                .Match("(pc:" + entityName + ")")
                                                 //.Where((T pc) => pc.As<T>)
                                                 //.Return(pc => new { ProductCategory = pc.As<T>()}).Results.ToList();
                                                 .Return(pc => pc.As<T>())
