@@ -34,9 +34,6 @@ E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.MSTest
 E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.MSTest\obj\Debug\netcoreapp2.1\InitialCore.MSTest.csproj.CopyComplete
 E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.MSTest\obj\Debug\netcoreapp2.1\InitialCore.MSTest.dll
 E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.MSTest\obj\Debug\netcoreapp2.1\InitialCore.MSTest.pdb
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.MSTest\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.MSTest\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.MSTest\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
 G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.MSTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.MSTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.MSTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -51,7 +48,6 @@ G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.MSTest
 G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.MSTest\bin\Debug\netcoreapp2.1\InitialCore.Infrastructure.dll
 G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.MSTest\bin\Debug\netcoreapp2.1\InitialCore.Service.Dapper.dll
 G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.MSTest\bin\Debug\netcoreapp2.1\InitialCore.Service.dll
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.MSTest\bin\Debug\netcoreapp2.1\InitialCore.UnitTest.dll
 G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.MSTest\bin\Debug\netcoreapp2.1\InitialCore.Utilities.dll
 G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.MSTest\bin\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.dll
 G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.MSTest\bin\Debug\netcoreapp2.1\InitialCore.Data.EF.pdb
@@ -59,7 +55,6 @@ G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.MSTest
 G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.MSTest\bin\Debug\netcoreapp2.1\InitialCore.Infrastructure.pdb
 G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.MSTest\bin\Debug\netcoreapp2.1\InitialCore.Service.Dapper.pdb
 G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.MSTest\bin\Debug\netcoreapp2.1\InitialCore.Service.pdb
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.MSTest\bin\Debug\netcoreapp2.1\InitialCore.UnitTest.pdb
 G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.MSTest\bin\Debug\netcoreapp2.1\InitialCore.Utilities.pdb
 G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.MSTest\bin\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.pdb
 G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.MSTest\bin\Debug\netcoreapp2.1\InitialCore.Data.Settings.pdb

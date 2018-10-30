@@ -37,9 +37,8 @@ namespace InitialCore.WebRESTfulApi.Controllers
         [HttpGet("{id}", Name = "Get")]
         public IActionResult Get(int id)
         {
-            //var allProductsById = _productService.GetById(id);
-            var all = "";
-            return new OkObjectResult(all);
+            var productsById = _productService.GetById(id);
+            return new OkObjectResult(productsById);
         }
 
         // POST: api/Product/post

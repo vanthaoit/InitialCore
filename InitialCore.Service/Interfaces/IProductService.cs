@@ -19,7 +19,7 @@ namespace InitialCore.Service.Interfaces
 
         void Delete(int id);
 
-        //ProductViewModel GetById(int id);
+        ProductViewModel GetById(int id);
 
         //void ImportExcel(string filePath, int categoryId);
 

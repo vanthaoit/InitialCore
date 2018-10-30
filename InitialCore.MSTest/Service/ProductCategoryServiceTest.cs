@@ -6,7 +6,7 @@ using InitialCore.Data.Entities;
 using InitialCore.Infrastructure.Interfaces;
 using InitialCore.Service.Implementation;
 using InitialCore.Service.Interfaces;
-using InitialCore.Service.ViewModels.Product;
+using InitialCore.Data.ViewModels.Product;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 
@@ -68,7 +68,7 @@ namespace InitialCore.MSTest.Service
                 });
             var result = _productCategoryService.GetAll();
             //var result = _productCategoryService.Add(_productCategoryVm);
-            _productCategoryService.Save();
+            //_productCategoryService.Save();
             Assert.IsNotNull(result);
             //Assert.AreEqual(4, result.Id);
         }

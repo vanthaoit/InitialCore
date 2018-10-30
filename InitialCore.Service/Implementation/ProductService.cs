@@ -57,6 +57,12 @@ namespace InitialCore.Service.Implementation
             return response;
         }
 
+        public ProductViewModel GetById(int id)
+        {
+            var response = _productRepository.FindById(id);
+            return response;
+        }
+
         public void Update(ProductViewModel product)
         {
             throw new NotImplementedException();

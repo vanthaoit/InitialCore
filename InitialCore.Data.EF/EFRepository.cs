@@ -144,7 +144,9 @@ namespace InitialCore.Data.EF
 
         public T FindById(K id, params Expression<Func<T, object>>[] includeProperties)
         {
-            return FindAll(includeProperties).SingleOrDefault(x => x.Id.Equals(id));
+            
+            var response = FindAll(includeProperties).SingleOrDefault(x => x.Id.Equals(id)); 
+            return response;
         }
 
         public T FindSingle(Expression<Func<T, bool>> predicate, params Expression<Func<T, object>>[] includeProperties)

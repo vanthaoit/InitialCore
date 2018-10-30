@@ -16,7 +16,7 @@ namespace InitialCore.MSTest
         {
             // MemoryDB
             var optionBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
-            optionBuilder.UseInMemoryDatabase();
+            //optionBuilder.UseInMemoryDatabase();
             _dbContext = new ApplicationDbContext(optionBuilder.Options);
 
 
