@@ -24,7 +24,7 @@ namespace InitialCore.Models.ProductViewModels
 
         public List<ProductViewModel> LastestProducts { get; set; }
 
-        public List<TagViewModel> Tags { set; get; }
+        //public List<TagViewModel> Tags { set; get; }
 
         public List<SelectListItem> Colors { set; get; }
 

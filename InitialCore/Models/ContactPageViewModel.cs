@@ -8,8 +8,8 @@ namespace InitialCore.Models
 {
     public class ContactPageViewModel
     {
-        public ContactViewModel Contact { set; get; }
+        //public ContactViewModel Contact { set; get; }
 
-        public FeedbackViewModel Feedback { set; get; }
+        //public FeedbackViewModel Feedback { set; get; }
     }
 }

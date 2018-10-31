@@ -7,8 +7,8 @@ namespace InitialCore.Models
 {
     public class HomeViewModel
     {
-        public List<BlogViewModel> LastestBlogs { get; set; }
-        public List<SlideViewModel> HomeSlides { get; set; }
+        //public List<BlogViewModel> LastestBlogs { get; set; }
+        //public List<SlideViewModel> HomeSlides { get; set; }
         public List<ProductViewModel> HotProducts { get; set; }
         public List<ProductViewModel> TopSellProducts { get; set; }
 

@@ -45,25 +45,25 @@ namespace InitialCore.Areas.Admin.Controllers
             return new OkObjectResult(model);
         }
 
-        [HttpPost]
-        public IActionResult SaveEntity(PageViewModel pageVm)
-        {
-            if (!ModelState.IsValid)
-            {
-                IEnumerable<ModelError> allErrors = ModelState.Values.SelectMany(v => v.Errors);
-                return new BadRequestObjectResult(allErrors);
-            }
-            if (pageVm.Id == 0)
-            {
-                _pageService.Add(pageVm);
-            }
-            else
-            {
-                _pageService.Update(pageVm);
-            }
-            _pageService.SaveChanges();
-            return new OkObjectResult(pageVm);
-        }
+        //[HttpPost]
+        //public IActionResult SaveEntity(PageViewModel pageVm)
+        //{
+        //    if (!ModelState.IsValid)
+        //    {
+        //        IEnumerable<ModelError> allErrors = ModelState.Values.SelectMany(v => v.Errors);
+        //        return new BadRequestObjectResult(allErrors);
+        //    }
+        //    if (pageVm.Id == 0)
+        //    {
+        //        _pageService.Add(pageVm);
+        //    }
+        //    else
+        //    {
+        //        _pageService.Update(pageVm);
+        //    }
+        //    _pageService.SaveChanges();
+        //    return new OkObjectResult(pageVm);
+        //}
 
         [HttpPost]
         public IActionResult Delete(int id)

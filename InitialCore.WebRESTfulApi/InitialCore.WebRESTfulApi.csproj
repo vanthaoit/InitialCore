@@ -15,9 +15,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\InitialCore.Data.EF\InitialCore.Data.EF.csproj" />
+    <ProjectReference Include="..\InitialCore.Data.Settings\InitialCore.Data.Settings.csproj" />
     <ProjectReference Include="..\InitialCore.Data\InitialCore.Data.csproj" />
     <ProjectReference Include="..\InitialCore.Infrastructure\InitialCore.Infrastructure.csproj" />
-    <ProjectReference Include="..\InitialCore.Service.Dapper\InitialCore.Service.Dapper.csproj" />
     <ProjectReference Include="..\InitialCore.Service\InitialCore.Service.csproj" />
     <ProjectReference Include="..\InitialCore.Utilities\InitialCore.Utilities.csproj" />
   </ItemGroup>

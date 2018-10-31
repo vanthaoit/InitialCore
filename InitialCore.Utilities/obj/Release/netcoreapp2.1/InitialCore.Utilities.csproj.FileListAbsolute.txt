@@ -1,0 +1,8 @@
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Utilities\bin\Release\netcoreapp2.1\InitialCore.Utilities.deps.json
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Utilities\bin\Release\netcoreapp2.1\InitialCore.Utilities.dll
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Utilities\bin\Release\netcoreapp2.1\InitialCore.Utilities.pdb
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Utilities\obj\Release\netcoreapp2.1\InitialCore.Utilities.csproj.CoreCompileInputs.cache
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Utilities\obj\Release\netcoreapp2.1\InitialCore.Utilities.AssemblyInfoInputs.cache
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Utilities\obj\Release\netcoreapp2.1\InitialCore.Utilities.AssemblyInfo.cs
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Utilities\obj\Release\netcoreapp2.1\InitialCore.Utilities.dll
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Utilities\obj\Release\netcoreapp2.1\InitialCore.Utilities.pdb

@@ -1,58 +1,26 @@
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.deps.json
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.runtimeconfig.json
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.runtimeconfig.dev.json
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.dll
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.pdb
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Data.dll
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Data.EF.dll
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Data.Settings.dll
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Infrastructure.dll
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Service.Dapper.dll
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Service.dll
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Utilities.dll
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Data.EF.pdb
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Data.pdb
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Infrastructure.pdb
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Service.Dapper.pdb
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Service.pdb
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Utilities.pdb
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Data.Settings.pdb
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.csprojAssemblyReference.cache
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.csproj.CoreCompileInputs.cache
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.RazorAssemblyInfo.cache
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.RazorAssemblyInfo.cs
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.AssemblyInfoInputs.cache
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.AssemblyInfo.cs
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.RazorTargetAssemblyInfo.cache
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.csproj.CopyComplete
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.dll
-E:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.pdb
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.deps.json
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.runtimeconfig.json
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.runtimeconfig.dev.json
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.dll
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.pdb
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Data.dll
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Data.EF.dll
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Data.Settings.dll
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Infrastructure.dll
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Service.Dapper.dll
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Service.dll
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Utilities.dll
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Data.EF.pdb
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Data.pdb
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Infrastructure.pdb
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Service.Dapper.pdb
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Service.pdb
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Utilities.pdb
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Data.Settings.pdb
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.csprojAssemblyReference.cache
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.csproj.CoreCompileInputs.cache
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.RazorAssemblyInfo.cache
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.RazorAssemblyInfo.cs
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.AssemblyInfoInputs.cache
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.AssemblyInfo.cs
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.RazorTargetAssemblyInfo.cache
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.csproj.CopyComplete
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.dll
-G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.pdb
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.deps.json
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.runtimeconfig.json
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.runtimeconfig.dev.json
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.dll
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.pdb
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Data.dll
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Data.EF.dll
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Data.Settings.dll
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Infrastructure.dll
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Service.dll
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Utilities.dll
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Data.EF.pdb
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Data.Settings.pdb
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Data.pdb
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Infrastructure.pdb
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Service.pdb
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.WebRESTfulApi\bin\Debug\netcoreapp2.1\InitialCore.Utilities.pdb
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.csprojResolveAssemblyReference.cache
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.csproj.CoreCompileInputs.cache
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.RazorAssemblyInfo.cache
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.RazorAssemblyInfo.cs
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.AssemblyInfoInputs.cache
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.AssemblyInfo.cs
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.RazorTargetAssemblyInfo.cache
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.dll
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.WebRESTfulApi\obj\Debug\netcoreapp2.1\InitialCore.WebRESTfulApi.pdb

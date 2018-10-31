@@ -1,0 +1,9 @@
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Infrastructure\bin\Release\netcoreapp2.1\InitialCore.Infrastructure.deps.json
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Infrastructure\bin\Release\netcoreapp2.1\InitialCore.Infrastructure.dll
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Infrastructure\bin\Release\netcoreapp2.1\InitialCore.Infrastructure.pdb
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Infrastructure\obj\Release\netcoreapp2.1\InitialCore.Infrastructure.csprojResolveAssemblyReference.cache
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Infrastructure\obj\Release\netcoreapp2.1\InitialCore.Infrastructure.csproj.CoreCompileInputs.cache
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Infrastructure\obj\Release\netcoreapp2.1\InitialCore.Infrastructure.AssemblyInfoInputs.cache
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Infrastructure\obj\Release\netcoreapp2.1\InitialCore.Infrastructure.AssemblyInfo.cs
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Infrastructure\obj\Release\netcoreapp2.1\InitialCore.Infrastructure.dll
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Infrastructure\obj\Release\netcoreapp2.1\InitialCore.Infrastructure.pdb

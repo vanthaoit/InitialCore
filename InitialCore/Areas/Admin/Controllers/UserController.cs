@@ -52,27 +52,27 @@ namespace InitialCore.Areas.Admin.Controllers
             return new OkObjectResult(model);
         }
 
-        [HttpPost]
-        public async Task<IActionResult> SaveEntity(ApplicationUserViewModel userVm)
-        {
-            if (!ModelState.IsValid)
-            {
-                IEnumerable<ModelError> allErrors = ModelState.Values.SelectMany(v => v.Errors);
-                return new BadRequestObjectResult(allErrors);
-            }
-            else
-            {
-                if (userVm.Id == null)
-                {
-                    await _userService.AddAsync(userVm);
-                }
-                else
-                {
-                    await _userService.UpdateAsync(userVm);
-                }
-                return new OkObjectResult(userVm);
-            }
-        }
+        //[HttpPost]
+        //public async Task<IActionResult> SaveEntity(ApplicationUserViewModel userVm)
+        //{
+        //    if (!ModelState.IsValid)
+        //    {
+        //        IEnumerable<ModelError> allErrors = ModelState.Values.SelectMany(v => v.Errors);
+        //        return new BadRequestObjectResult(allErrors);
+        //    }
+        //    else
+        //    {
+        //        if (userVm.Id == null)
+        //        {
+        //            await _userService.AddAsync(userVm);
+        //        }
+        //        else
+        //        {
+        //            await _userService.UpdateAsync(userVm);
+        //        }
+        //        return new OkObjectResult(userVm);
+        //    }
+        //}
 
         [HttpPost]
         public async Task<IActionResult> Delete(string id)

@@ -19,3 +19,14 @@ G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.Data.S
 G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.Data.Settings\bin\Debug\netcoreapp2.1\InitialCore.Utilities.dll
 G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.Data.Settings\bin\Debug\netcoreapp2.1\InitialCore.Utilities.pdb
 G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\InitialCore\InitialCore\InitialCore.Data.Settings\obj\Debug\netcoreapp2.1\InitialCore.Data.Settings.csproj.CopyComplete
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Data.Settings\bin\Debug\netcoreapp2.1\InitialCore.Data.Settings.deps.json
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Data.Settings\bin\Debug\netcoreapp2.1\InitialCore.Data.Settings.dll
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Data.Settings\bin\Debug\netcoreapp2.1\InitialCore.Data.Settings.pdb
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Data.Settings\bin\Debug\netcoreapp2.1\InitialCore.Utilities.dll
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Data.Settings\bin\Debug\netcoreapp2.1\InitialCore.Utilities.pdb
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Data.Settings\obj\Debug\netcoreapp2.1\InitialCore.Data.Settings.csprojResolveAssemblyReference.cache
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Data.Settings\obj\Debug\netcoreapp2.1\InitialCore.Data.Settings.csproj.CoreCompileInputs.cache
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Data.Settings\obj\Debug\netcoreapp2.1\InitialCore.Data.Settings.AssemblyInfoInputs.cache
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Data.Settings\obj\Debug\netcoreapp2.1\InitialCore.Data.Settings.AssemblyInfo.cs
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Data.Settings\obj\Debug\netcoreapp2.1\InitialCore.Data.Settings.dll
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Data.Settings\obj\Debug\netcoreapp2.1\InitialCore.Data.Settings.pdb
