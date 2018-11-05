@@ -32,3 +32,11 @@ F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Infrastructure\obj\Debug\netcor
 F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Infrastructure\obj\Debug\netcoreapp2.1\InitialCore.Infrastructure.dll
 F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Infrastructure\obj\Debug\netcoreapp2.1\InitialCore.Infrastructure.pdb
 F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Infrastructure\obj\Debug\netcoreapp2.1\InitialCore.Infrastructure.csprojResolveAssemblyReference.cache
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore.Infrastructure\bin\Debug\netcoreapp2.1\InitialCore.Infrastructure.deps.json
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore.Infrastructure\bin\Debug\netcoreapp2.1\InitialCore.Infrastructure.dll
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore.Infrastructure\bin\Debug\netcoreapp2.1\InitialCore.Infrastructure.pdb
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore.Infrastructure\obj\Debug\netcoreapp2.1\InitialCore.Infrastructure.csproj.CoreCompileInputs.cache
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore.Infrastructure\obj\Debug\netcoreapp2.1\InitialCore.Infrastructure.AssemblyInfoInputs.cache
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore.Infrastructure\obj\Debug\netcoreapp2.1\InitialCore.Infrastructure.AssemblyInfo.cs
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore.Infrastructure\obj\Debug\netcoreapp2.1\InitialCore.Infrastructure.dll
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore.Infrastructure\obj\Debug\netcoreapp2.1\InitialCore.Infrastructure.pdb

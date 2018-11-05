@@ -681,26 +681,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\thaotranv\\.nuget\\packages\\": {},
+    "C:\\Users\\ThaoJohan\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "F:\\MY PROGRAMMING\\LOWELL\\InitialCore\\InitialCore.Infrastructure\\InitialCore.Infrastructure.csproj",
+      "projectUniqueName": "G:\\KAMIKAZE SOLUTIONS\\SOURCE CODE\\GIT\\LOWELL\\InitialCore\\InitialCore.Infrastructure\\InitialCore.Infrastructure.csproj",
       "projectName": "InitialCore.Infrastructure",
-      "projectPath": "F:\\MY PROGRAMMING\\LOWELL\\InitialCore\\InitialCore.Infrastructure\\InitialCore.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\thaotranv\\.nuget\\packages\\",
-      "outputPath": "F:\\MY PROGRAMMING\\LOWELL\\InitialCore\\InitialCore.Infrastructure\\obj\\",
+      "projectPath": "G:\\KAMIKAZE SOLUTIONS\\SOURCE CODE\\GIT\\LOWELL\\InitialCore\\InitialCore.Infrastructure\\InitialCore.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\ThaoJohan\\.nuget\\packages\\",
+      "outputPath": "G:\\KAMIKAZE SOLUTIONS\\SOURCE CODE\\GIT\\LOWELL\\InitialCore\\InitialCore.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\thaotranv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ThaoJohan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -727,7 +724,7 @@
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.1",
+            "version": "[2.1.0, )",
             "autoReferenced": true
           }
         },

@@ -25,3 +25,11 @@ F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Service.Dapper\obj\Debug\netcor
 F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Service.Dapper\obj\Debug\netcoreapp2.1\InitialCore.Service.Dapper.AssemblyInfo.cs
 F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Service.Dapper\obj\Debug\netcoreapp2.1\InitialCore.Service.Dapper.dll
 F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Service.Dapper\obj\Debug\netcoreapp2.1\InitialCore.Service.Dapper.pdb
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore.Service.Dapper\bin\Debug\netcoreapp2.1\InitialCore.Service.Dapper.deps.json
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore.Service.Dapper\bin\Debug\netcoreapp2.1\InitialCore.Service.Dapper.dll
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore.Service.Dapper\bin\Debug\netcoreapp2.1\InitialCore.Service.Dapper.pdb
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore.Service.Dapper\obj\Debug\netcoreapp2.1\InitialCore.Service.Dapper.csproj.CoreCompileInputs.cache
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore.Service.Dapper\obj\Debug\netcoreapp2.1\InitialCore.Service.Dapper.AssemblyInfoInputs.cache
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore.Service.Dapper\obj\Debug\netcoreapp2.1\InitialCore.Service.Dapper.AssemblyInfo.cs
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore.Service.Dapper\obj\Debug\netcoreapp2.1\InitialCore.Service.Dapper.dll
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore.Service.Dapper\obj\Debug\netcoreapp2.1\InitialCore.Service.Dapper.pdb

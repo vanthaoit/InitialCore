@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Text;
-using InitialCore.Service.ViewModels.System;
 using InitialCore.Data.Enums;
 
 namespace InitialCore.Data.ViewModels.Product

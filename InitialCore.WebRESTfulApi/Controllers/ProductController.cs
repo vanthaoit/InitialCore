@@ -43,7 +43,7 @@ namespace InitialCore.WebRESTfulApi.Controllers
 
         // POST: api/Product/post
         [HttpPost("post")]
-        public IActionResult Post(ProductViewModel product)
+        public IActionResult Post([FromBody]ProductViewModel product)
         {
             var result = _productService.Add(product);
             //try

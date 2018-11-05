@@ -1,0 +1,16 @@
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore\obj\Debug\netcoreapp2.1\InitialCore.csprojAssemblyReference.cache
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore\obj\Debug\netcoreapp2.1\InitialCore.Resources.Controllers.HomeController.en-US.resources
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore\obj\Debug\netcoreapp2.1\InitialCore.Resources.Controllers.HomeController.vi-VN.resources
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore\obj\Debug\netcoreapp2.1\InitialCore.Resources.Models.AccountViewModels.LoginViewModel.en-US.resources
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore\obj\Debug\netcoreapp2.1\InitialCore.Resources.Models.AccountViewModels.LoginViewModel.vi-VN.resources
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore\obj\Debug\netcoreapp2.1\InitialCore.Resources.Views.Home.Index.en-US.resources
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore\obj\Debug\netcoreapp2.1\InitialCore.Resources.Views.Home.Index.vi-VN.resources
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore\obj\Debug\netcoreapp2.1\InitialCore.Resources.Views.Shared.Components.CategoryMenu.Default.en-US.resources
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore\obj\Debug\netcoreapp2.1\InitialCore.Resources.Views.Shared.Components.CategoryMenu.Default.vi-VN.resources
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore\obj\Debug\netcoreapp2.1\InitialCore.Resources.Views.Shared._Header.en-US.resources
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore\obj\Debug\netcoreapp2.1\InitialCore.Resources.Views.Shared._Header.vi-VN.resources
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore\obj\Debug\netcoreapp2.1\InitialCore.csproj.GenerateResource.cache
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore\obj\Debug\netcoreapp2.1\InitialCore.csproj.CoreCompileInputs.cache
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore\obj\Debug\netcoreapp2.1\InitialCore.AssemblyInfoInputs.cache
+G:\KAMIKAZE SOLUTIONS\SOURCE CODE\GIT\LOWELL\InitialCore\InitialCore\obj\Debug\netcoreapp2.1\InitialCore.AssemblyInfo.cs
