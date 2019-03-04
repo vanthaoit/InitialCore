@@ -1,0 +1,11 @@
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Data\bin\Release\netcoreapp2.1\InitialCore.Data.deps.json
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Data\bin\Release\netcoreapp2.1\InitialCore.Data.dll
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Data\bin\Release\netcoreapp2.1\InitialCore.Data.pdb
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Data\bin\Release\netcoreapp2.1\InitialCore.Infrastructure.dll
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Data\bin\Release\netcoreapp2.1\InitialCore.Infrastructure.pdb
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Data\obj\Release\netcoreapp2.1\InitialCore.Data.csprojResolveAssemblyReference.cache
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Data\obj\Release\netcoreapp2.1\InitialCore.Data.csproj.CoreCompileInputs.cache
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Data\obj\Release\netcoreapp2.1\InitialCore.Data.AssemblyInfoInputs.cache
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Data\obj\Release\netcoreapp2.1\InitialCore.Data.AssemblyInfo.cs
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Data\obj\Release\netcoreapp2.1\InitialCore.Data.dll
+F:\MY PROGRAMMING\LOWELL\InitialCore\InitialCore.Data\obj\Release\netcoreapp2.1\InitialCore.Data.pdb
